@@ -35,16 +35,16 @@
 // server.listen(4001)
 
 
-//************************************************************************************* */
+//************************************************************************************* *//
 
-const http = require('http');
+const http= require('http')
 
-const routes = require('./routes');
+const routes = require('./route');
 
 console.log(routes.someText);
 
 const server = http.createServer(routes.handler);
 
-server.listen(3000);
+server.listen(3001);
 
 
